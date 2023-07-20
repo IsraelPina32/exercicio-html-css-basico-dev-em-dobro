@@ -1,0 +1,62 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+    margin-top: 123px;
+    flex-wrap: wrap;
+    
+}
+
+.fundo-1 , .fundo-2, .fundo-3 , .fundo-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 335px;
+    height: 423px;
+    padding: 5px 22px;
+}
+
+.container h1 , .container p {
+    color: #ffff;
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+    top: 300px;
+    right: 20px;
+
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.container p {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 5px 20px;
+}
+
+.fundo-1 {
+    background-image: url(/src/img/rome.png);
+}
+
+.fundo-2 {
+    background-image: url(/src/img/boat.png);
+}
+
+.fundo-3 {
+    background-image: url(/src/img/sand-and-sea.png);
+}
+
+.fundo-4 {
+    background-image: url(/src/img/starry-night.png);
+}

@@ -1,0 +1,105 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;    
+}
+
+
+.card {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 330px;
+    gap: 10px;
+    border-radius: 10px; 
+}
+
+.card .perfil {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.titulo {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+.cidade {
+    align-items: center;
+    display: flex;
+    color: var(--cor-texto, gray);
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+ 
+}
+span {
+    color: var(--cor-texto, gray);
+}
+
+.perfil-numeros {
+    border-top: 1px solid var(--cor-texto, gray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 330px;
+}
+
+.conteudo , .info li, .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    margin-top: 15px;
+    padding: 2px;
+    margin-left: 5px;
+    color: var(--cor-titulo, black);
+    font-weight: 800;
+   
+}
+
+.conteudo-type {
+   
+    padding: 2px;
+    margin-left: 12px;
+    color: var(--cor-texto, gray);
+}
+
+@media (max-width: 320px) {
+        .card{
+            float: none;
+            height: 290px;
+            width: 250px;
+
+        }
+        .card-perfil {
+            height: 210px;
+        }
+        .titulo {
+            font-size: 20px;
+        }
+
+        .perfil-numeros {
+            width: 250px;
+        }
+}
+
